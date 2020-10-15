@@ -12,6 +12,7 @@ const client = new Client({
 
 client.on("ready", () => {
     console.log("----Bot ready----");
+    updatePresence(client);
     setInterval(() => {
         updatePresence(client);
     }, 1080000);
