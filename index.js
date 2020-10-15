@@ -30,9 +30,45 @@ client.on("message", (msg) => {
     const cmdName = args.shift().toLowerCase();
 
     switch (cmdName) {
+        // Shows all commands
         case "h":
         case "help":
             msg.reply("test");
+            break;
+
+        // Shows all Tasks which are finished
+        case "d":
+        case "done":
+            break;
+
+        // Shows all Tasks that are not finished
+        case "u":
+        case "undone":
+            break;
+
+        // Adds a new Task
+        // Format: add <Name> |description|
+        case "a":
+        case "add":
+            break;
+
+        // Removes a Task
+        // Foramt: remove <Name>
+        // Permission: Should only be done by the one Person who added the command or Administrators
+        case "r":
+        case "remove":
+            break;
+
+        // Marks a Task as finsihed or unfinished
+        case "t":
+        case "toggle":
+            break;
+
+        // Shows all commands disregarding of finished or not
+        case "":
+            break;
+        default:
+            msg.reply("This is not a valid command. Pls see: `" + prefix + " help` for all commands");
             break;
     }
 });
