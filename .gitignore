@@ -1,4 +1,4 @@
 node_modules/
 config.json
-data/
+json.sqlite
 package-lock.json
