@@ -1,0 +1,22 @@
+{
+  "name": "organisations-boss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZockenboysDC/Organisations-Boss.git"
+  },
+  "author": "7h3730B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZockenboysDC/Organisations-Boss/issues"
+  },
+  "homepage": "https://github.com/ZockenboysDC/Organisations-Boss#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
